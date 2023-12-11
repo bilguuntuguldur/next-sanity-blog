@@ -4,8 +4,9 @@ import Footer from '@/components/footer/Footer';
 import { ThemeProvider } from '@/context/ThemeContext';
 
 export const metadata = {
-  title: "Laim.prosperity",
-  description: "Passive house design",
+  title: "BEKI",
+  description: "My web design",
+  icon: "http://shacman.mn/wp-content/uploads/2023/12/pngtree-letter-b-logo-png-png-image_2978124.png"
 }
 
 const Rootlayout = ({ children }: {children : React.ReactNode}) => (
