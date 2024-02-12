@@ -3,7 +3,7 @@ import { PortableText } from "@portabletext/react";
 import Link from "next/link"
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-// import ThreeDComponent from "@/context/ThreeD";
+import HelloPage from "@/components/contact/contact-form";
 
 type Props = {
   params: { slug: string }
@@ -18,7 +18,7 @@ export default async function Page({ params }: Props) {
         {page.title}
         <br className="max-md:hidden" />
         <span className="subtitle text-2xl text-center">
-         {page.subtitle}
+          {page.subtitle}
         </span>
       </h4>
       <div className="social_icons my-8">
@@ -27,9 +27,12 @@ export default async function Page({ params }: Props) {
               <li className="flex flex-center gap-2"><FaInstagram /><Link href="https://www.instagram.com/tuguldur.tb/" target="_blank">{page.instagram}</Link></li>
             </ul>
         </div>
-      <div className="text-lg mt-10"><PortableText value={page.content} /></div>
+      <div className="text-lg mt-10">
+        <PortableText value={page.content} />
+      </div>
+
       <div>
-        {/* <ThreeDComponent /> */}
+        <HelloPage />
       </div>
   </div>
   

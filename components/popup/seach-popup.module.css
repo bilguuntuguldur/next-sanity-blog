@@ -1,0 +1,46 @@
+
+
+.container {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.form {
+    position: relative;
+}
+
+.form span {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.input {
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e2e8f01e;
+    color: rgb(266 232 240);
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.p {
+    margin-top: 20px;
+    color: #fbfbfb5c;
+}
+
+.button {
+    background: #0f172a;
+    border: 1px solid #e2e8f01e;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #bbb;
+    margin-top: 20px;
+}

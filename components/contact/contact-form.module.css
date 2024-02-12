@@ -1,0 +1,48 @@
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.input{
+    padding: 10px 30px;
+    margin: 10px 0px;
+    border-radius: 55px;
+    font-size: 14px;
+    background: #e4e4e8;
+    color: #111;
+}
+
+.label {
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #bbb;
+}
+
+.textarea {
+    border-radius: 15px;
+    font-size: 14px;
+    height: 100px;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    color: #111;
+    background: #e4e4e8;
+}
+
+.button {
+    width: auto;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    outline: none;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: #bbb;
+}
+
+.button:hover {
+    background: #bbb;
+    color: #111;
+}

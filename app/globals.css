@@ -208,3 +208,21 @@
   background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
   color: aqua;
 }
+
+
+.main_bg_color {
+  background: #111;
+  colo: white;
+}
+
+.mobile_middle_menu {
+  display: flex;
+}
+
+.mobile_middle_menu li{
+  color: #e5e7eb;
+}
+
+.mobile_middle_menu .social_btn ul li svg{
+  fill: #e5e7eb;
+}
