@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Heading from "@/components/ui/heading";
 import styles from "./newsletter-section.module.css"
 
@@ -9,7 +10,7 @@ function NewsletterSection() {
 
       <div className="flex flex-col md:flex-row  items-center mt-8 md:mt-[3.31rem]">
         <div>
-          <img
+          <Image
             src="/assets/images/newsletter_large_icon.png"
             alt="large envelop image"
             className="w-[10rem] md:w-full"
